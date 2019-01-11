@@ -1,0 +1,52 @@
+.header-gif{background: #DA1624; 
+    .ceremony img{width: 100%;
+    }
+    .fourbtn{display: flex;flex-wrap:nowrap;width: 100%;
+        img{width: 25%;height: 93.75px;}
+    }
+    .two-img{display: flex;flex-wrap:nowrap;
+        img{width: 50%;height: 80px;}
+    }
+    .seckill{
+        width: 100%;background-color:#DA1624;height: 205px;
+        .seckill-all{height: 34px;display: flex;justify-content: space-between;margin-left: 10px;margin-right: 10px;padding: 10px;color:white;
+        .times{width:150px;display: flex;}
+        .seckill-head{font-size: 0.4rem;height: 16px;}
+        .seckill-time time{background: black;width: 20px;margin-left: 5px;     }
+        }
+        .list{display: flex;overflow-y: hidden;padding:10px;
+            .item{background: white;margin:5px;width: 95px;}
+            .item img{width: 95px;}
+            .item span{width: 95px;display: inline-block;overflow: hidden;text-overflow: ellipsis; white-space: nowrap;}
+            .item p{display: flex;justify-content: space-around;
+            span:nth-child(1){color: #ff1f32;font-size: 0.4rem;line-height: 22px;}
+            span:nth-child(2){line-height: 22px;}
+            }
+        }
+    }
+    .img-1 img{width: 100%;}
+    .img-3 img{width: 100%;}
+    .img-4 img{width: 100%;}
+    .img-5 img{width: 100%;}
+    .img-6 img{width: 100%;}
+    .img-7 img{width: 100%;}
+    .img-8 img{width: 100%;}
+}
+.ant-modal {
+    height: 48%;
+    .ant-modal-content {
+        width: 90%;
+        height: 100%;
+        margin:auto;
+    }
+}   
+.ant-modal-close-x{
+    top: 9rem;
+    left: -5rem;
+    font-size: 30px;
+    color: white;
+    position: absolute;
+}
+.ant-modal-body {
+    padding: 0;
+} 

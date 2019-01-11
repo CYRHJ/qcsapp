@@ -1,0 +1,27 @@
+.mask{width: 100%;margin-top:76px;
+    .maskimg1 li img{width: 100%;}
+    .maskimg2{position: relative;margin: .26667rem .26667rem .4rem .4rem; padding-left: 2.33333rem;width: 9.33333rem;height: 2.13333rem;background-image:url("https://asset.watsons.com.cn/act/static/images/mask-center/442af5844f137440b999ff5c7.png");
+        background-size: cover;
+        .text{margin-top: 0.4rem;padding-top: .46667rem;color: #4a4a4a;font-size: .48rem;font-weight: 700;text-decoration: underline;
+        }
+    }
+    .maskimg3{
+        div div{font-size: 20px;margin-left: 10px;}
+        div span{font-size: 10px;margin-left: 10px;}
+        img{width: 55%;position: relative;top: -10px;left: 1.4rem; }
+    }
+    .shopping{
+        li{display: flex;}
+        .shopping_img{
+            img{width: 3rem;margin-left: 0.5rem;margin-top: 0.5rem;}
+        }
+        .shop_name{
+            margin-top: 0.5rem;
+        }
+        .fast_price{
+            img{width: 37.5px;}
+        }
+        .write_shop{height: 32.5px;}
+    }
+    .ant-progress-outer{width: 170px;}
+}

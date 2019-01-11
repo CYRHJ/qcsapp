@@ -1,0 +1,167 @@
+.header-gif {
+  background: #DA1624;
+}
+
+.header-gif .ceremony img {
+  width: 100%;
+}
+
+.header-gif .fourbtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  width: 100%;
+}
+
+.header-gif .fourbtn img {
+  width: 25%;
+  height: 93.75px;
+}
+
+.header-gif .two-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+.header-gif .two-img img {
+  width: 50%;
+  height: 80px;
+}
+
+.header-gif .seckill {
+  width: 100%;
+  background-color: #DA1624;
+  height: 205px;
+}
+
+.header-gif .seckill .seckill-all {
+  height: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.header-gif .seckill .seckill-all .times {
+  width: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header-gif .seckill .seckill-all .seckill-head {
+  font-size: 0.4rem;
+  height: 16px;
+}
+
+.header-gif .seckill .seckill-all .seckill-time time {
+  background: black;
+  width: 20px;
+  margin-left: 5px;
+}
+
+.header-gif .seckill .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  padding: 10px;
+}
+
+.header-gif .seckill .list .item {
+  background: white;
+  margin: 5px;
+  width: 95px;
+}
+
+.header-gif .seckill .list .item img {
+  width: 95px;
+}
+
+.header-gif .seckill .list .item span {
+  width: 95px;
+  display: inline-block;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.header-gif .seckill .list .item p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.header-gif .seckill .list .item p span:nth-child(1) {
+  color: #ff1f32;
+  font-size: 0.4rem;
+  line-height: 22px;
+}
+
+.header-gif .seckill .list .item p span:nth-child(2) {
+  line-height: 22px;
+}
+
+.header-gif .img-1 img {
+  width: 100%;
+}
+
+.header-gif .img-3 img {
+  width: 100%;
+}
+
+.header-gif .img-4 img {
+  width: 100%;
+}
+
+.header-gif .img-5 img {
+  width: 100%;
+}
+
+.header-gif .img-6 img {
+  width: 100%;
+}
+
+.header-gif .img-7 img {
+  width: 100%;
+}
+
+.header-gif .img-8 img {
+  width: 100%;
+}
+
+.ant-modal {
+  height: 48%;
+}
+
+.ant-modal .ant-modal-content {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.ant-modal-close-x {
+  top: 9rem;
+  left: -5rem;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+}
+
+.ant-modal-body {
+  padding: 0;
+}
+/*# sourceMappingURL=main.css.map */

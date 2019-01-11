@@ -1,0 +1,37 @@
+.delicacy-img{
+    width: 100%;
+    img{width: 100%;}
+    h1{width: 100%;height: 40px;line-height: 40px;font-size: 20px;font-weight: bold;border-bottom: 1px solid #ccc;
+    span{margin-left: 3rem}
+    }   
+    .top-list{
+        display: flex;flex-wrap: wrap;justify-content: space-around;
+        li{height: 40px;line-height: 40px;}
+        .active{border-bottom: 3px solid #6ad6c3;}
+    }
+    .item-list{display: flex;flex-wrap: wrap;justify-content: space-around;width: 97%;margin-left:5px;
+        .desc1{margin-left: 5px;
+            .desc2{display: flex;justify-content: space-around;font-size:10px;color:white;
+                .youhui{background: #FF6692;border-radius:10%;width: auto;}
+                .youhui1{background: #FF6692;margin-right: 5px; border-radius:10%;width: auto;}
+            }
+        }
+        li{width: 49%;height: auto;border:1px solid #ccc;
+            img{width: 100%;}
+            .desc{
+                
+                .sale_point{width: 100%;margin-left: 10px;color: black;font-size: 13px;height: 19px;}
+                .name{overflow: hidden;text-overflow: ellipsis; white-space: nowrap;padding: 5px;}
+                .price{font-size: 20px;color: #FF4479;}
+                .shop{
+                    display: flex;justify-content: space-between;
+                    .icon-1{width: 25px;height: 25px;background: #FF4479;border-radius: 50%;margin-right:10px;
+                        .qcs-shopping1{font-size: 18px;line-height: 30px;color: white;margin-left: 3px;}
+                    }
+                }
+            }
+        }
+    }
+    .sync{text-align: center;color: yellowgreen;font-size: 20px;}
+    .backtop{position: fixed;right: 20px;bottom: 50px;background: rgba($color: #ccc, $alpha: 0.5)}
+}

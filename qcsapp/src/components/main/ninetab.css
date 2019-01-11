@@ -1,0 +1,70 @@
+.nine-tab {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #DA1624;
+  padding: 7px;
+}
+
+.nine-tab .twoline span:nth-child(1) {
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nine-tab .twoline .ccc:after {
+  display: inline;
+  content: "...";
+  font-size: 16px;
+}
+
+.nine-tab li {
+  background: white;
+  width: 31%;
+  margin: 4px;
+}
+
+.nine-tab li img {
+  width: 100%;
+}
+
+.nine-tab li .price1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nine-tab li .price1 span:nth-child(1) {
+  color: #ff1f32;
+  font-size: 0.4rem;
+  line-height: 30px;
+}
+
+.nine-tab li .price1 span:nth-child(2) {
+  line-height: 30px;
+  text-decoration: line-through;
+}
+
+.nine-tab li .price1 .icon-1 {
+  width: 25px;
+  height: 25px;
+  background: #DA1624;
+  border-radius: 50%;
+}
+
+.nine-tab li .price1 .icon-1 .qcs-shopping1 {
+  font-size: 18px;
+  line-height: 30px;
+  color: white;
+  margin-left: 3px;
+}
+/*# sourceMappingURL=ninetab.css.map */
